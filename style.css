@@ -1,7 +1,5 @@
 #content{
     display: flex;
-    max-width: 1024px;
-    max-height: 1024px;
     flex-flow: row wrap;
 }
 .square{
@@ -16,6 +14,3 @@
 .color{
     background-color: grey;
 }
-$('.square').hover(
-    function(){ $(this).addClass('color')}
-)
