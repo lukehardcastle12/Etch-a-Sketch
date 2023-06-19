@@ -12,3 +12,10 @@
     border: 1px solid black;
     flex-shrink: 0;
 }
+
+.color{
+    background-color: grey;
+}
+$('.square').hover(
+    function(){ $(this).addClass('color')}
+)
