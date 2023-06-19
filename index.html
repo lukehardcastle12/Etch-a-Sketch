@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <div id="content">
+
+    </div>
+    <script>
+        const content = document.querySelector('#content');
+        for(i=1;i<=4096;i++){
+            const divSquare = document.createElement('div');
+            divSquare.setAttribute('class', 'square');
+            content.appendChild(divSquare);
+        }
+    </script>
+</body>
+</html>
